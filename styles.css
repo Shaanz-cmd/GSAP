@@ -69,6 +69,9 @@ body {
     background-color: #cfcaca56;
     display: grid;
     place-content: center;
+    color: white;
+    font-size: x-large;
+    rotate: 90deg;
 }
 /* .after {
     width: 0;
