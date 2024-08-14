@@ -23,6 +23,35 @@ body {
     scale: 1;
 }
 
+.ham_menu {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    position: absolute;
+    top: 20px;
+    left: calc(100vw / 2 - 25px);
+    border:2px solid rgb(187, 165, 165);
+    border-radius: 50px;
+    z-index: 44;
+}
+.ham_menu span:nth-child(1){
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: red;
+    top:40%;
+    left: 25%;
+    border-radius: 10px;
+}
+.ham_menu span:nth-child(2){
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: red;
+    top:55%;
+    left: 25%;
+    border-radius: 10px;
+}
 .text {
     max-height: 150px;
     color: white;
@@ -81,7 +110,7 @@ body {
     rotate: 90deg;
 }
 
-.after {
+/* .after {
     width: 0;
     height: 100%;
     position: absolute;
@@ -99,4 +128,4 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-}
+} */
