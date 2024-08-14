@@ -73,12 +73,15 @@ body {
     background-color: #cfcaca31;
     display: grid;
     place-content: center;
+}
+
+.four h1 {
     color: white;
-    font-size: x-large;
+    font-size: 2.5rem;
     rotate: 90deg;
 }
 
-/* .after {
+.after {
     width: 0;
     height: 100%;
     position: absolute;
@@ -96,4 +99,4 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-} */
+}
