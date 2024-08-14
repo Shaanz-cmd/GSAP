@@ -32,6 +32,7 @@ body {
     padding-top: 130px;
     overflow: hidden;
 }
+
 .one {
     width: 800px;
     height: 800px;
@@ -39,8 +40,9 @@ body {
     bottom: -40%;
     left: -30%;
     border-radius: 50%;
-    background-color: #f3efef1c;
+    background-color: #f3efef0a;
 }
+
 .two {
     width: 600px;
     height: 600px;
@@ -48,8 +50,9 @@ body {
     bottom: -30%;
     left: -10%;
     border-radius: 50%;
-    background-color: #f3efef36;
+    background-color: #f3efef0c;
 }
+
 .three {
     width: 500px;
     height: 500px;
@@ -57,22 +60,24 @@ body {
     bottom: -30%;
     left: 0%;
     border-radius: 50%;
-    background-color: #f3efef3a;
+    background-color: #f3efef0e;
 }
+
 .four {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     position: absolute;
-    bottom: 0%;
-    left: calc(100vw / 2 - 65px);
+    bottom: -4%;
+    left: calc(100vw / 2 - 60px);
     border-radius: 50%;
-    background-color: #cfcaca56;
+    background-color: #cfcaca31;
     display: grid;
     place-content: center;
     color: white;
     font-size: x-large;
     rotate: 90deg;
 }
+
 /* .after {
     width: 0;
     height: 100%;
