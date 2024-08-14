@@ -14,7 +14,7 @@ gsap.to("#page2 .box", {
     markers: true,
     start: "top center",
     scrub: 1,
-    pin:true,
+    pin: true,
   },
   x: 300,
   rotate: 360,
