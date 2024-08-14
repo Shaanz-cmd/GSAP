@@ -32,28 +32,44 @@ body {
     padding-top: 130px;
     overflow: hidden;
 }
-
-.button {
-    width: 60px;
-    height: 60px;
-    border: 2px solid white;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: xx-large;
-    color: white;
-    font-weight: 900;
-    rotate: 90deg;
+.one {
+    width: 800px;
+    height: 800px;
     position: absolute;
-    bottom: 50px;
-    left: calc(100vw / 2 - 60px);
+    bottom: -40%;
+    left: -30%;
+    border-radius: 50%;
+    background-color: #f3efef1c;
 }
-
-.button:hover {
-    background-color: #ffffff28;
-    cursor: pointer;
+.two {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    bottom: -30%;
+    left: -10%;
+    border-radius: 50%;
+    background-color: #f3efef36;
 }
-
+.three {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: -30%;
+    left: 0%;
+    border-radius: 50%;
+    background-color: #f3efef3a;
+}
+.four {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 0%;
+    left: calc(100vw / 2 - 65px);
+    border-radius: 50%;
+    background-color: #cfcaca56;
+    display: grid;
+    place-content: center;
+}
 /* .after {
     width: 0;
     height: 100%;
